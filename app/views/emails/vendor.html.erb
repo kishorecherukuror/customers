@@ -1,0 +1,12 @@
+<%= form_for @email, :url => {:action => 'vendor_create'} do |f| %>
+  
+  <div class="field">
+    <%= f.label :email_id %><br>
+    <%= f.text_field :email_id %>
+  </div>
+
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
